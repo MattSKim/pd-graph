@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+#graph {
+    flex: 3;
+    border: 1px solid #ccc;
+}
+
+#info-panel {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+.node circle {
+    fill: #69b3a2;
+    stroke: #fff;
+    stroke-width: 2px;
+    transition: fill 0.15s ease;
+}
+
+.node circle:hover {
+    fill: #ff7f50;  /* Coral color on hover */
+}
+
+.node text {
+    font-size: 12px;
+}
+
+.link {
+    stroke: #999;
+    stroke-opacity: 0.6;
+    stroke-width: 2.5px;
+    transition: all 0.15s ease;
+}
+
+.link-hitbox {
+    stroke: transparent;
+    stroke-width: 10px;
+    pointer-events: stroke;
+}
+
+/* Apply hover effect when either the link or its hitbox is hovered */
+.link-group:hover .link {
+    stroke: #333;
+    stroke-width: 3.5px;
+} 
