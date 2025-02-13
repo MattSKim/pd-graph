@@ -1,0 +1,99 @@
+Node,Category
+Dopamine,Cellular
+Serotonin,Cellular
+Acetylcholine,Cellular
+Cannabinoid receptors,Cellular
+Norepinephrine,Cellular
+Inflammation,Cellular
+Trophic Factors,Cellular
+Synucleinopathy,Cellular
+Gut Microbiota,Cellular
+Noradrenergic,Cellular
+GABA,Cellular
+Glutamate,Cellular
+Cholinergic,Cellular
+Melatonin,Cellular
+Orexin,Cellular
+Hypocretin,Cellular
+Alpha-synuclein,Cellular
+Adenosine,Cellular
+Histamine,Cellular
+Auditory brain regions,Brain Regions
+Visual brain regions,Brain Regions
+Frontal cortex,Brain Regions
+Limbic system,Brain Regions
+Thalamus,Brain Regions
+Cholinergic structures,Brain Regions
+Basal ganglia,Brain Regions
+Amygdala,Brain Regions
+Hippocampus,Brain Regions
+Hypothalamus,Brain Regions
+Prefrontal cortex,Brain Regions
+Orbitofrontal cortex,Brain Regions
+Anterior cingulate cortex,Brain Regions
+Medial frontal cortex,Brain Regions
+Dorsolateral prefrontal cortex,Brain Regions
+Locus Coeruleus, Brain Regions
+Raphe Nuclei, Brain Regions
+Striatum, Brain Regions
+Ventral Striatum, Brain Regions
+Fronto-striatal Disconnection, Brain Regions
+Substantia nigra, Brain Regions
+Forebrain, Brain Regions
+Basal forebrain, Brain Regions
+Caudate, Brain Regions
+Default Mode Network, Networks
+Dorsal Attention Network, Networks
+Ventral Attention Network, Networks
+Frontotemporal connectivity, Networks
+Thalamocortical circuits, Networks
+Limbic circuits, Networks
+Corticostriatal circuits, Networks
+Striatal-thalamic-prefrontal circuits, Networks
+Frontemporal regions, Networks
+Gut-brain axis, Networks
+Corticolimbic circuits, Networks
+Connections between emotional and motor control areas, Networks
+Cortico-basal ganglia circuits, Networks
+Mesocorticolimbic pathway, Networks
+Reward circuitry, Networks
+White matter tracts, Networks
+Fronto-striatal network, Networks
+Ascending Reticular Activating System, Networks
+Circadian system, Networks
+REM sleep circuitry, Networks
+Ascending Arousal System, Networks
+Circadian rhythm regulation, Networks
+Misattribution of internal stimuli, Higher Order Cognitive Mechanisms
+Self-monitoring deficits, Higher Order Cognitive Mechanisms
+Reality monitoring deficits, Higher Order Cognitive Mechanisms
+Attentional control, Higher Order Cognitive Mechanisms
+Bottom-up processing, Higher Order Cognitive Mechanisms
+Top-down processing, Higher Order Cognitive Mechanisms
+Emotional regulation, Higher Order Cognitive Mechanisms
+Reward System, Higher Order Cognitive Mechanisms
+Cognitive Impairment, Higher Order Cognitive Mechanisms
+Stress Response, Higher Order Cognitive Mechanisms
+Social anxiety, Higher Order Cognitive Mechanisms
+Reactive anxiety, Higher Order Cognitive Mechanisms
+Anxious personality, Higher Order Cognitive Mechanisms
+Impulse control disorders, Higher Order Cognitive Mechanisms
+Sensitivity to stimuli, Higher Order Cognitive Mechanisms
+Reward processing, Higher Order Cognitive Mechanisms
+Decision making, Higher Order Cognitive Mechanisms
+Initiation and execution of actions, Higher Order Cognitive Mechanisms
+Effort-based decision making, Higher Order Cognitive Mechanisms
+Executive functions, Higher Order Cognitive Mechanisms
+Self-activation, Higher Order Cognitive Mechanisms
+Emotional processing, Higher Order Cognitive Mechanisms
+Impaired executive function, Higher Order Cognitive Mechanisms
+Loss of inhibitory control, Higher Order Cognitive Mechanisms
+Negative reinforcement, Higher Order Cognitive Mechanisms
+Sleep architecture, Higher Order Cognitive Mechanisms
+Motor control, Higher Order Cognitive Mechanisms
+REM sleep without atonia, Higher Order Cognitive Mechanisms
+Cognitive dysfunction, Higher Order Cognitive Mechanisms
+Depression and anxiety, Higher Order Cognitive Mechanisms
+Cognitive decline, Higher Order Cognitive Mechanisms
+Awareness of sleepiness, Higher Order Cognitive Mechanisms
+Impact on daily functioning, Higher Order Cognitive Mechanisms
