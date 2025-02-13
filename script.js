@@ -94,13 +94,50 @@ function createVisualization(graphData) {
     // Add zoom functionality
     const g = svg.append('g');
     const zoom = d3.zoom()
-        .scaleExtent([0.1, 4])  // Set min/max zoom scale
+        .scaleExtent([0.1, 4])
         .on('zoom', (event) => {
             g.attr('transform', event.transform);
         });
 
     svg.call(zoom);
     
+    // Function to focus on a node
+    function focusNode(nodeId) {
+        const node = graphData.nodes.find(n => n.id === nodeId);
+        if (node) {
+            // Deselect any previously selected nodes/links
+            selectedNode = node;
+            selectedLink = null;
+            d3.selectAll('.node circle').classed('selected', false);
+            d3.selectAll('.link').classed('selected', false);
+            
+            // Select and highlight the node
+            d3.selectAll('.node')
+                .filter(d => d.id === nodeId)
+                .select('circle')
+                .classed('selected', true);
+
+            // Show node info
+            showNodeInfo(null, node);
+
+            // Calculate zoom transform to center on node
+            const scale = 2; // Zoom level
+            const x = width / 2 - node.x * scale;
+            const y = height / 2 - node.y * scale;
+            
+            // Animate transition to the node
+            svg.transition()
+                .duration(750)
+                .call(zoom.transform, d3.zoomIdentity
+                    .translate(x, y)
+                    .scale(scale)
+                );
+        }
+    }
+
+    // Create brain region selector
+    createCategorySelectors(graphData.nodes, focusNode);
+
     // Create force simulation
     const simulation = d3.forceSimulation(graphData.nodes)
         .force('link', d3.forceLink(graphData.links).id(d => d.id))
@@ -339,6 +376,59 @@ function createFilterPanel(categories) {
     }
     console.log('Active categories:', Array.from(activeCategories));
     return activeCategories;
+}
+
+// Replace the createBrainRegionSelector function with this new version
+function createCategorySelectors(nodes, focusCallback) {
+    // Define the categories we want to create selectors for
+    const categories = [
+        { id: 'brain-regions', name: 'Brain Regions', category: 'Brain Regions' },
+        { id: 'cellular', name: 'Cellular Components', category: 'Cellular' },
+        { id: 'networks', name: 'Networks', category: 'Networks' },
+        { id: 'cognitive', name: 'Higher Order Cognitive Mechanisms', category: 'Higher Order Cognitive Mechanisms' }
+    ];
+
+    // Create container for all selectors
+    const selectorsContainer = document.createElement('div');
+    selectorsContainer.id = 'category-selectors';
+
+    // Create a selector for each category
+    categories.forEach(cat => {
+        const selectorHtml = `
+            <div class="category-selector" id="${cat.id}-selector">
+                <h3>${cat.name}</h3>
+                <select id="${cat.id}-select">
+                    <option value="">Select ${cat.name.toLowerCase()}...</option>
+                    ${nodes
+                        .filter(node => node.category === cat.category)
+                        .sort((a, b) => a.id.localeCompare(b.id))
+                        .map(node => `<option value="${node.id}">${node.id}</option>`)
+                        .join('')}
+                </select>
+            </div>
+        `;
+        selectorsContainer.innerHTML += selectorHtml;
+    });
+
+    // Add it to the info panel after the info content but before the filter panel
+    const infoPanel = document.getElementById('info-panel');
+    const filterPanel = document.getElementById('filter-panel');
+    infoPanel.insertBefore(selectorsContainer, filterPanel);
+
+    // Add event listeners to all selectors
+    categories.forEach(cat => {
+        document.getElementById(`${cat.id}-select`).addEventListener('change', (e) => {
+            if (e.target.value) {
+                // Clear other selectors
+                categories.forEach(otherCat => {
+                    if (otherCat.id !== cat.id) {
+                        document.getElementById(`${otherCat.id}-select`).value = '';
+                    }
+                });
+                focusCallback(e.target.value);
+            }
+        });
+    });
 }
 
 // Initialize the visualization
