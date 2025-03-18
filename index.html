@@ -3,19 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table Relationship Visualization</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Network Graph</title>
+    <style>
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+        }
+        
+        #graph {
+            flex: 1;
+            min-width: 0;
+            border: 1px solid #ccc;
+        }
+        
+        #info-panel {
+            width: 300px;
+            padding: 20px;
+            background: #f5f5f5;
+            border-left: 1px solid #ccc;
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #info-content {
+            flex-grow: 1;
+            min-height: 200px;
+        }
+        
+        #info-panel h4 {
+            font-size: 16px;
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        
+        #info-panel p {
+            margin: 8px 0;
+        }
+        
+        .node {
+            stroke: #fff;
+            stroke-width: 1.5px;
+        }
+        
+        .node.selected {
+            stroke: #2196F3;
+            stroke-width: 3px;
+        }
+        
+        .link-visible {
+            stroke: #999;
+            stroke-opacity: 0.6;
+        }
+        
+        .link-visible.selected {
+            stroke: #2196F3;
+            stroke-opacity: 1;
+            stroke-width: 5px;
+        }
+        
+        .link-hover {
+            stroke: #999;
+            cursor: pointer;
+            pointer-events: all;
+        }
+        
+        .edge-label {
+            pointer-events: none;  /* Prevent label from interfering with interactions */
+            user-select: none;     /* Prevent text selection */
+        }
+        
+        #arrow {
+            stroke: none;
+            fill: #999;
+        }
+        
+        /* Make sure SVG fills its container */
+        svg {
+            width: 100%;
+            height: 100%;
+            user-select: none;  /* Prevent text selection in the entire graph */
+        }
+        
+        /* Keep legend on top and prevent zoom */
+        .legend {
+            pointer-events: none;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <div id="graph"></div>
         <div id="info-panel">
             <h3>Information Panel</h3>
-            <div id="info-content">
-                Hover over nodes or edges to see information
+            <div id="scale-filter" style="margin-bottom: 20px;">
+                <label for="scale-select">Filter by Scale:</label>
+                <select id="scale-select" style="margin-left: 8px; padding: 4px;">
+                    <option value="all">All Scales</option>
+                    <option value="synaptic">Synaptic</option>
+                    <option value="molecular">Molecular</option>
+                    <option value="anatomical">Anatomical</option>
+                    <option value="genomic">Genomic</option>
+                    <option value="phenotypic">Phenotypic</option>
+                    <option value="clinical_assessment">Clinical Assessment</option>
+                </select>
+                <div style="margin-top: 8px;">
+                    <input type="checkbox" id="show-connected" style="margin-right: 4px;">
+                    <label for="show-connected">Show connected nodes and edges</label>
+                </div>
             </div>
+            <div id="info-content">
+                Click on nodes or edges to see information
+            </div>
+            <hr style="margin: 20px 0;">
+            <div id="categories-legend"></div>
         </div>
     </div>
-    <script type="module" src="script.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="graph.js"></script>
 </body>
 </html> 

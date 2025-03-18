@@ -1,0 +1,2062 @@
+{
+    "nodes": [
+        {
+            "id": "Alpha-synuclein",
+            "name": "Alpha-synuclein",
+            "category": "protein",
+            "scale": "molecular",
+            "function": "Presynaptic protein involved in neurotransmitter release",
+            "role_in_PD": "Aggregates in Lewy bodies, contributing to neurodegeneration"
+        },
+        {
+            "id": "Phosphorylated_Alpha-synuclein",
+            "name": "Phosphorylated Alpha-synuclein",
+            "category": "protein",
+            "scale": "molecular",
+            "function": "Pathologically modified form of alpha-synuclein",
+            "role_in_PD": "Key component in Lewy body formation, indicating disease progression"
+        },
+        {
+            "id": "Tau_Protein",
+            "name": "Tau Protein",
+            "category": "protein",
+            "scale": "molecular",
+            "function": "Microtubule-associated protein stabilizing neuronal cytoskeleton",
+            "role_in_PD": "Elevated levels or abnormal phosphorylation may be associated with cognitive aspects of PD"
+        },
+        {
+            "id": "Phosphorylated_Tau_(p-tau)",
+            "name": "Phosphorylated Tau (p-tau)",
+            "category": "protein",
+            "scale": "molecular",
+            "function": "Abnormally phosphorylated form of Tau protein",
+            "role_in_PD": "May contribute to neurodegeneration, particularly in cognitive decline associated with PD"
+        },
+        {
+            "id": "Beta-synuclein",
+            "name": "Beta-synuclein",
+            "category": "protein",
+            "scale": "molecular",
+            "function": "Synuclein isoform thought to inhibit alpha-synuclein aggregation",
+            "role_in_PD": "May have a protective or counterbalancing function against alpha-synuclein toxicity"
+        },
+        {
+            "id": "Neurofilament_Light_Chain_(NfL)",
+            "name": "Neurofilament Light Chain (NfL)",
+            "category": "protein",
+            "scale": "molecular",
+            "function": "Structural component of neuronal cytoskeleton, released upon damage",
+            "role_in_PD": "Elevated levels reflect ongoing neuronal injury"
+        },
+        {
+            "id": "DJ-1",
+            "name": "DJ-1",
+            "category": "enzyme",
+            "scale": "molecular",
+            "function": "Redox-sensitive protein with antioxidant properties and regulates mitochondrial quality control",
+            "role_in_PD": "Loss of function increases oxidative stress, accelerating neuronal damage"
+        },
+        {
+            "id": "Parkin",
+            "name": "Parkin",
+            "category": "enzyme",
+            "scale": "molecular",
+            "function": "E3 ubiquitin ligase involved in proteostasis and mitophagy",
+            "role_in_PD": "Mutations reduce mitochondrial quality control, promoting cell death"
+        },
+        {
+            "id": "PINK1",
+            "name": "PINK1",
+            "category": "enzyme",
+            "scale": "molecular",
+            "function": "Mitochondrial kinase that helps protect mitochondria from damage",
+            "role_in_PD": "Loss of PINK1 impairs mitochondrial clearance, leading to dysfunction"
+        },
+        {
+            "id": "LRRK2",
+            "name": "LRRK2",
+            "category": "enzyme",
+            "scale": "molecular",
+            "function": "Kinase protein implicated in cytoskeletal dynamics and vesicular trafficking",
+            "role_in_PD": "Mutations increase kinase activity, potentially disrupting neuronal homeostasis"
+        },
+        {
+            "id": "GCase_(Glucocerebrosidase)",
+            "name": "GCase (Glucocerebrosidase)",
+            "category": "enzyme",
+            "scale": "molecular",
+            "function": "Lysosomal enzyme breaking down glucocerebrosides",
+            "role_in_PD": "Reduced activity linked to alpha-synuclein accumulation"
+        },
+        {
+            "id": "Cathepsin_D",
+            "name": "Cathepsin D",
+            "category": "enzyme",
+            "scale": "molecular",
+            "function": "Lysosomal protease crucial for degrading misfolded proteins",
+            "role_in_PD": "Helps clear alpha-synuclein aggregates; impaired activity may contribute to protein accumulation"
+        },
+        {
+            "id": "UCH-L1",
+            "name": "UCH-L1",
+            "category": "enzyme",
+            "scale": "molecular",
+            "function": "Ubiquitin C-terminal hydrolase involved in protein degradation",
+            "role_in_PD": "Implicated in maintaining proteostasis; mutations or reduced activity may accelerate neuronal damage"
+        },
+        {
+            "id": "SIRT2",
+            "name": "SIRT2",
+            "category": "enzyme",
+            "scale": "molecular",
+            "function": "Sirtuin family deacetylase influencing metabolism, stress resistance, and protein homeostasis",
+            "role_in_PD": "May modulate alpha-synuclein toxicity and neuronal resilience through deacetylation pathways"
+        },
+        {
+            "id": "Nurr1",
+            "name": "Nurr1",
+            "category": "transcription_factor",
+            "scale": "molecular",
+            "function": "Nuclear receptor and transcription factor required for dopaminergic neuron development and maintenance",
+            "role_in_PD": "Downregulation leads to impaired dopamine synthesis and neuronal survival, potentially exacerbating PD pathology"
+        },
+        {
+            "id": "Serotonin",
+            "name": "Serotonin",
+            "category": "neurotransmitter",
+            "scale": "synaptic",
+            "function": "Regulates mood, appetite, sleep, and various non-motor functions",
+            "role_in_PD": "Altered serotonin levels can contribute to mood disturbances and may influence cognitive aspects in PD"
+        },
+        {
+            "id": "Dopamine",
+            "name": "Dopamine",
+            "category": "neurotransmitter",
+            "scale": "synaptic",
+            "function": "Essential neurotransmitter for motor control in the nigrostriatal pathway",
+            "role_in_PD": "Deficiency occurs with loss of dopaminergic neurons in the substantia nigra"
+        },
+        {
+            "id": "Norepinephrine",
+            "name": "Norepinephrine",
+            "category": "neurotransmitter",
+            "scale": "synaptic",
+            "function": "Modulates alertness, stress response, and autonomic functions",
+            "role_in_PD": "Loss of noradrenergic neurons in the locus coeruleus may affect both motor and non-motor symptoms, including tremor"
+        },
+        {
+            "id": "Acetylcholine",
+            "name": "Acetylcholine",
+            "category": "neurotransmitter",
+            "scale": "synaptic",
+            "function": "Plays a key role in motor control, cognitive function, and parasympathetic autonomic activity",
+            "role_in_PD": "Cholinergic system imbalances can exacerbate motor symptoms and cognitive decline in later stages of PD"
+        },
+        {
+            "id": "Glutamate",
+            "name": "Glutamate",
+            "category": "neurotransmitter",
+            "scale": "synaptic",
+            "function": "Primary excitatory neurotransmitter in the CNS",
+            "role_in_PD": "Excessive glutamatergic activity can promote excitotoxicity, potentially exacerbating mitochondrial and neuronal damage"
+        },
+        {
+            "id": "Substantia_Nigra_pars_compacta_(SNc)",
+            "name": "Substantia Nigra pars compacta (SNc)",
+            "category": "brain_region",
+            "scale": "anatomical",
+            "function": "Primary source of dopaminergic neurons projecting to the striatum for motor control",
+            "role_in_PD": "Degeneration of SNc neurons leads to reduced dopamine and hallmark motor symptoms (bradykinesia, tremor)"
+        },
+        {
+            "id": "Striatum_(Caudate/Putamen)",
+            "name": "Striatum (Caudate/Putamen)",
+            "category": "brain_region",
+            "scale": "anatomical",
+            "function": "Integrates dopaminergic input from the SNc for motor planning and reward-related processes",
+            "role_in_PD": "Dopamine depletion in the striatum contributes to impaired motor function"
+        },
+        {
+            "id": "Locus_Coeruleus",
+            "name": "Locus Coeruleus",
+            "category": "brain_region",
+            "scale": "anatomical",
+            "function": "Primary noradrenergic nucleus involved in arousal and stress response",
+            "role_in_PD": "Degeneration contributes to noradrenergic deficits, affecting tremor and autonomic dysfunction"
+        },
+        {
+            "id": "Raphe_Nuclei",
+            "name": "Raphe Nuclei",
+            "category": "brain_region",
+            "scale": "anatomical",
+            "function": "Main source of serotonin in the brain, regulating mood and other non-motor functions",
+            "role_in_PD": "Serotonergic dysfunction can exacerbate mood disturbances and certain non-motor symptoms"
+        },
+        {
+            "id": "Nucleus_Basalis_of_Meynert",
+            "name": "Nucleus Basalis of Meynert",
+            "category": "brain_region",
+            "scale": "anatomical",
+            "function": "Primary cholinergic nucleus projecting to the cortex, involved in attention and cognition",
+            "role_in_PD": "Degeneration leads to cholinergic deficits, contributing to cognitive decline"
+        },
+        {
+            "id": "Ventral_Tegmental_Area_(VTA)",
+            "name": "Ventral Tegmental Area (VTA)",
+            "category": "brain_region",
+            "scale": "anatomical",
+            "function": "Major dopaminergic center projecting to limbic and cortical areas, influencing motivation, reward, and cognitive functions",
+            "role_in_PD": "Dopaminergic neurons here can be affected, contributing to reward-system deficits and non-motor symptoms (e.g., mood, motivation)"
+        },
+        {
+            "id": "Hippocampus",
+            "name": "Hippocampus",
+            "category": "brain_region",
+            "scale": "anatomical",
+            "function": "Critical for memory formation and spatial navigation",
+            "role_in_PD": "May exhibit alpha-synuclein pathology and atrophy; contributes to cognitive decline and depression/anxiety symptoms in PD"
+        },
+        {
+            "id": "Amygdala",
+            "name": "Amygdala",
+            "category": "brain_region",
+            "scale": "anatomical",
+            "function": "Key role in emotional processing, fear, and reward-based behaviors",
+            "role_in_PD": "Involvement may lead to emotional dysregulation, heightened anxiety, and changes in reward processing"
+        },
+        {
+            "id": "Motor_Cortex",
+            "name": "Motor Cortex",
+            "category": "brain_region",
+            "scale": "anatomical",
+            "function": "Primary region responsible for voluntary motor commands",
+            "role_in_PD": "Receives abnormal basal ganglia output due to reduced dopamine; contributes to bradykinesia and other motor impairments"
+        },
+        {
+            "id": "Prefrontal_Cortex",
+            "name": "Prefrontal Cortex",
+            "category": "brain_region",
+            "scale": "anatomical",
+            "function": "Involved in executive functions, decision-making, and working memory",
+            "role_in_PD": "Dopaminergic depletion and potential alpha-synuclein spread can result in executive dysfunction and cognitive decline"
+        },
+        {
+            "id": "Subthalamic_Nucleus_(STN)",
+            "name": "Subthalamic Nucleus (STN)",
+            "category": "brain_region",
+            "scale": "anatomical",
+            "function": "Part of the basal ganglia circuit, modulating output to the thalamus and cortex",
+            "role_in_PD": "Often exhibits hyperactivity when dopaminergic input is lost; deep brain stimulation here can reduce motor symptoms"
+        },
+        {
+            "id": "Pedunculopontine_Nucleus_(PPN)",
+            "name": "Pedunculopontine Nucleus (PPN)",
+            "category": "brain_region",
+            "scale": "anatomical",
+            "function": "Associated with gait, posture, and arousal; contains cholinergic and glutamatergic neurons",
+            "role_in_PD": "Degeneration or dysfunction may contribute to gait disturbances and balance issues"
+        },
+        {
+            "id": "Olfactory_Bulb",
+            "name": "Olfactory Bulb",
+            "category": "brain_region",
+            "scale": "anatomical",
+            "function": "Processes olfactory (smell) information",
+            "role_in_PD": "Earliest site of alpha-synuclein pathology in many PD cases; associated with loss of smell (hyposmia)"
+        },
+        {
+            "id": "Nucleus_Accumbens_(NAc)",
+            "name": "Nucleus Accumbens (NAc)",
+            "category": "brain_region",
+            "scale": "anatomical",
+            "function": "Central hub in the mesolimbic (reward) pathway, receiving dopaminergic input from the VTA",
+            "role_in_PD": "Dysregulation in the NAc can contribute to impulse control disorders and DDS in PD"
+        },
+        {
+            "id": "SNCA",
+            "name": "SNCA",
+            "category": "gene",
+            "scale": "genomic",
+            "function": "Encodes alpha-synuclein, a presynaptic protein involved in neurotransmitter release",
+            "role_in_PD": "Point mutations, multiplications, or triplications of SNCA lead to familial PD with Lewy bodies"
+        },
+        {
+            "id": "LRRK2_(Gene)",
+            "name": "LRRK2 (Gene)",
+            "category": "gene",
+            "scale": "genomic",
+            "function": "Encodes leucine-rich repeat kinase 2, involved in cytoskeletal dynamics and vesicular trafficking",
+            "role_in_PD": "Mutations are the most common cause of autosomal-dominant PD"
+        },
+        {
+            "id": "PRKN",
+            "name": "PRKN",
+            "category": "gene",
+            "scale": "genomic",
+            "function": "Encodes Parkin (an E3 ubiquitin ligase) that aids in mitophagy",
+            "role_in_PD": "Mutations cause early-onset PD (PARK2), disrupting mitochondrial quality control"
+        },
+        {
+            "id": "PINK1_(Gene)",
+            "name": "PINK1 (Gene)",
+            "category": "gene",
+            "scale": "genomic",
+            "function": "Encodes PTEN-induced putative kinase 1 (PINK1), crucial for mitochondrial protection",
+            "role_in_PD": "Loss-of-function mutations cause autosomal recessive early-onset PD (PARK6)"
+        },
+        {
+            "id": "PARK7_(DJ-1_Gene)",
+            "name": "PARK7 (DJ-1 Gene)",
+            "category": "gene",
+            "scale": "genomic",
+            "function": "Encodes DJ-1, a redox-sensitive protein with antioxidant properties",
+            "role_in_PD": "Mutations cause autosomal recessive PD (PARK7); impair cellular defense against oxidative stress"
+        },
+        {
+            "id": "GBA",
+            "name": "GBA",
+            "category": "gene",
+            "scale": "genomic",
+            "function": "Encodes glucocerebrosidase (GCase), a lysosomal enzyme that breaks down glucocerebrosides",
+            "role_in_PD": "Heterozygous mutations are a significant genetic risk factor for PD, increasing alpha-synuclein aggregation"
+        },
+        {
+            "id": "Bradykinesia",
+            "name": "Bradykinesia",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Slowness of movement",
+            "role_in_PD": "One of the cardinal motor symptoms of PD, resulting from decreased dopaminergic input to the motor pathways"
+        },
+        {
+            "id": "Tremor",
+            "name": "Tremor",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Involuntary rhythmic shaking",
+            "role_in_PD": "Often a resting tremor, linked to altered dopaminergic and noradrenergic signaling"
+        },
+        {
+            "id": "Rigidity",
+            "name": "Rigidity",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Increased resistance to passive movement",
+            "role_in_PD": "Caused by imbalance in basal ganglia output due to loss of dopamine"
+        },
+        {
+            "id": "Postural_Instability",
+            "name": "Postural Instability",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Impaired balance and coordination",
+            "role_in_PD": "Associated with loss of postural reflexes and changes in brainstem control of gait"
+        },
+        {
+            "id": "Freezing_of_Gait",
+            "name": "Freezing of Gait",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Sudden inability to initiate or continue stepping",
+            "role_in_PD": "Linked to dysfunction in motor circuitry, including the basal ganglia and pedunculopontine nucleus"
+        },
+        {
+            "id": "Cognitive_Decline",
+            "name": "Cognitive Decline",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Impairment in memory, attention, and executive functions",
+            "role_in_PD": "Can progress to dementia; related to cortical and subcortical pathology (including alpha-synuclein, tau)"
+        },
+        {
+            "id": "Executive_Dysfunction",
+            "name": "Executive Dysfunction",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Difficulty with planning, multitasking, and abstract thinking",
+            "role_in_PD": "Tied to prefrontal cortex dopamine deficits and disrupted frontostriatal circuits"
+        },
+        {
+            "id": "Dementia",
+            "name": "Dementia",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Global cognitive impairment interfering with daily life",
+            "role_in_PD": "Late-stage cognitive decline that may be associated with Lewy body pathology in cortical regions"
+        },
+        {
+            "id": "Emotional_Dysregulation",
+            "name": "Emotional Dysregulation",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Difficulty in modulating emotional responses",
+            "role_in_PD": "Linked to changes in amygdala function and altered monoamine (serotonin, dopamine) signaling"
+        },
+        {
+            "id": "Anxiety",
+            "name": "Anxiety",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Persistent feelings of worry or apprehension",
+            "role_in_PD": "Related to serotonergic and dopaminergic dysfunction, plus amygdala and hippocampal involvement"
+        },
+        {
+            "id": "Depression",
+            "name": "Depression",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Persistent low mood and loss of interest",
+            "role_in_PD": "One of the most common non-motor symptoms; linked to reduced monoamine transmission"
+        },
+        {
+            "id": "Apathy",
+            "name": "Apathy",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Loss of motivation and goal-directed behavior",
+            "role_in_PD": "Associated with dysfunction in dopaminergic reward circuits (VTA-accumbens-prefrontal cortex)"
+        },
+        {
+            "id": "Sleep_Disturbances",
+            "name": "Sleep Disturbances",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Insomnia, restless sleep, or REM sleep behavior disorder (RBD)",
+            "role_in_PD": "Related to degeneration in brainstem nuclei (e.g., raphe, PPN) and dysregulated neurotransmitter pathways"
+        },
+        {
+            "id": "Autonomic_Dysfunction",
+            "name": "Autonomic Dysfunction",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Issues with blood pressure regulation, digestion, sweating",
+            "role_in_PD": "Due to degeneration of autonomic control centers and noradrenergic deficits (LC involvement)"
+        },
+        {
+            "id": "Constipation",
+            "name": "Constipation",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Reduced bowel movements",
+            "role_in_PD": "Can precede motor symptoms; linked to enteric nervous system alpha-synuclein pathology"
+        },
+        {
+            "id": "Orthostatic_Hypotension",
+            "name": "Orthostatic Hypotension",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Drop in blood pressure upon standing",
+            "role_in_PD": "Related to loss of autonomic control and noradrenergic neurons"
+        },
+        {
+            "id": "Hyposmia_(Reduced_Sense_of_Smell)",
+            "name": "Hyposmia (Reduced Sense of Smell)",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Decreased ability to detect odors",
+            "role_in_PD": "Early non-motor symptom, often correlated with alpha-synuclein pathology in the olfactory bulb"
+        },
+        {
+            "id": "Fatigue",
+            "name": "Fatigue",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Excessive tiredness and lack of energy",
+            "role_in_PD": "Multifactorial, related to motor effort, sleep problems, and neurochemical changes"
+        },
+        {
+            "id": "Pain",
+            "name": "Pain",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Sensory discomfort varying in nature and severity",
+            "role_in_PD": "Possibly linked to central sensitization, altered dopamine, and other neurotransmitter pathways"
+        },
+        {
+            "id": "Hallucinations",
+            "name": "Hallucinations",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Sensory perceptions (often visual) without external stimulus",
+            "role_in_PD": "Linked to dopaminergic or cholinergic imbalances; often exacerbated by certain PD medications"
+        },
+        {
+            "id": "Dopamine_Dysregulation_Syndrome_(DDS)",
+            "name": "Dopamine Dysregulation Syndrome (DDS)",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Compulsive overuse of dopaminergic medications leading to behavioral changes",
+            "role_in_PD": "Associated with reward circuitry dysregulation (e.g., VTA-striatal-prefrontal circuits)"
+        },
+        {
+            "id": "Urinary_Problems",
+            "name": "Urinary Problems",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Incontinence, urgency, or frequency issues",
+            "role_in_PD": "Related to autonomic dysfunction in PD; measured by MDS-UPDRS Part I"
+        },
+        {
+            "id": "Speech_Difficulties",
+            "name": "Speech Difficulties",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Soft speech (hypophonia), slurred articulation, or vocal tremor",
+            "role_in_PD": "Results from bradykinesia/rigidity in orofacial muscles; measured by MDS-UPDRS Part II and III"
+        },
+        {
+            "id": "Drooling_(Sialorrhea)",
+            "name": "Drooling (Sialorrhea)",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Excess saliva due to reduced swallowing",
+            "role_in_PD": "Caused by bradykinesia in oropharyngeal muscles; measured by MDS-UPDRS Part II"
+        },
+        {
+            "id": "Chewing/Swallowing_Difficulties",
+            "name": "Chewing/Swallowing Difficulties",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Impaired mastication or dysphagia",
+            "role_in_PD": "Caused by rigidity/bradykinesia of the oromotor muscles; measured by MDS-UPDRS Part II"
+        },
+        {
+            "id": "Walking_Difficulty",
+            "name": "Walking Difficulty",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Shuffling gait, difficulty initiating steps",
+            "role_in_PD": "Related to bradykinesia and impaired postural reflexes; measured by MDS-UPDRS Part II and III"
+        },
+        {
+            "id": "Pathological_Gambling",
+            "name": "Pathological Gambling",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Compulsive gambling behavior with negative personal/financial consequences",
+            "role_in_PD": "Often associated with dopaminergic medication overuse and reward circuit dysregulation"
+        },
+        {
+            "id": "Hypersexuality",
+            "name": "Hypersexuality",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Excessive or inappropriate sexual urges or behaviors",
+            "role_in_PD": "Can arise due to dopaminergic therapy and changes in frontal-limbic pathways"
+        },
+        {
+            "id": "Compulsive_Shopping",
+            "name": "Compulsive Shopping",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Uncontrolled spending, over-acquisition of goods",
+            "role_in_PD": "Linked to impulse control deficits, often exacerbated by dopamine agonists"
+        },
+        {
+            "id": "Compulsive_Eating",
+            "name": "Compulsive Eating",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Excessive or binge eating behaviors without hunger",
+            "role_in_PD": "Tied to dysregulated reward circuitry and sometimes dopaminergic medications"
+        },
+        {
+            "id": "Punding",
+            "name": "Punding",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Repetitive, purposeless, often complex behaviors (e.g., sorting, disassembling objects)",
+            "role_in_PD": "Associated with dopaminergic overstimulation, distinct from typical OCD rituals"
+        },
+        {
+            "id": "Hobbyism",
+            "name": "Hobbyism",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Excessive dedication to a hobby or activity beyond normal interest",
+            "role_in_PD": "Falls under the ICD spectrum; can be driven by dopaminergic reward-seeking"
+        },
+        {
+            "id": "Insomnia",
+            "name": "Insomnia",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Difficulty falling or staying asleep",
+            "role_in_PD": "Common non-motor symptom in PD, often related to changes in sleep regulation"
+          },
+          {
+            "id": "REM_Sleep_Behavior_Disorder",
+            "name": "REM Sleep Behavior Disorder",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "REM Sleep Behavior Disorder (RBD) is a sleep disorder where individuals act out vivid dreams due to loss of normal muscle paralysis during REM sleep.",
+            "role_in_PD": "Frequently precedes motor symptoms of PD and may be an early indicator of synucleinopathy"
+          },
+          {
+            "id": "Excessive_Daytime_Sleepiness",
+            "name": "Excessive Daytime Sleepiness",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Excessive Daytime Sleepiness is a condition characterized by persistent sleepiness and lack of energy during the day, even after adequate or prolonged nighttime sleep.",
+            "role_in_PD": "Common non-motor symptom in PD, often related to dopaminergic dysfunction and reduced sleep drive"
+          },
+          {
+            "id": "Hypersalivation",
+            "name": "Hypersalivation",
+            "category": "clinical_symptom",
+            "scale": "phenotypic",
+            "description": "Hypersalivation is excessive saliva production, which can lead to drooling.",
+            "role_in_PD": "Common non-motor symptom in PD, often related to bradykinesia and autonomic dysfunction"
+        },
+        {
+            "id": "MDS-UPDRS",
+            "name": "MDS-UPDRS",
+            "category": "assessment_tool",
+            "scale": "clinical_assessment",
+            "function": "Movement Disorders Society-Unified Parkinson's Disease Rating Scale",
+            "role_in_PD": "Used to measure the severity of both motor and non-motor PD symptoms"
+        },
+        {
+            "id": "MoCA",
+            "name": "MoCA",
+            "category": "assessment_tool",
+            "scale": "clinical_assessment",
+            "function": "Montreal Cognitive Assessment",
+            "role_in_PD": "Screens for mild cognitive impairment in PD, covering memory, attention, executive function, language, visuospatial abilities, and orientation"
+        },
+        {
+            "id": "QUIP",
+            "name": "QUIP",
+            "category": "assessment_tool",
+            "scale": "clinical_assessment",
+            "function": "Questionnaire for Impulsive-Compulsive Disorders in Parkinson's Disease",
+            "role_in_PD": "Screens for impulse control disorders (ICDs) such as pathological gambling, hypersexuality, compulsive shopping/eating, and other behaviors"
+        },
+        {
+            "id": "DaTscan",
+            "name": "DaTscan",
+            "category": "assessment_tool",
+            "scale": "clinical_assessment",
+            "function": "Dopamine transporter imaging technique used to differentiate Parkinsonian syndromes from essential tremor",
+            "role_in_PD": "Assesses dopamine transporter availability in the striatum, aiding in the diagnosis of Parkinson's disease"
+        },
+        {
+            "id": "SCOPA",
+            "name": "SCOPA",
+            "category": "assessment_tool",
+            "scale": "clinical_assessment",
+            "function": "Comprehensive assessment tool covering multiple domains of Parkinson's disease",
+            "role_in_PD": "Scales for Outcomes in Parkinson's disease (SCOPA) is a comprehensive assessment tool covering multiple domains of Parkinson's disease, including motor function, cognition, sleep disturbances, psychosocial functioning, and autonomic dysfunction."
+        }
+    ],
+    "links": [
+        {
+            "source": "Alpha-synuclein",
+            "target": "Phosphorylated_Alpha-synuclein",
+            "interaction": "is_modified_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Alpha-synuclein is modified to Phosphorylated Alpha-synuclein"
+          },
+          {
+            "source": "LRRK2",
+            "target": "Alpha-synuclein",
+            "interaction": "phosphorylates",
+            "directed": true,
+            "strength": 1.0,
+            "description": "LRRK2 phosphorylates Alpha-synuclein"
+          },
+          {
+            "source": "Parkin",
+            "target": "PINK1",
+            "interaction": "operates_in_same_pathway",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Parkin operates in same pathway as PINK1"
+          },
+          {
+            "source": "Parkin",
+            "target": "DJ-1",
+            "interaction": "compensates_for",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Parkin compensates for DJ-1"
+          },
+          {
+            "source": "GCase_(Glucocerebrosidase)",
+            "target": "Alpha-synuclein",
+            "interaction": "influences_aggregation",
+            "directed": true,
+            "strength": 1.0,
+            "description": "GCase (Glucocerebrosidase) influences aggregation of Alpha-synuclein"
+          },
+          {
+            "source": "DJ-1",
+            "target": "Neurofilament_Light_Chain_(NfL)",
+            "interaction": "opposes_elevated_release_of",
+            "directed": true,
+            "strength": 1.0,
+            "description": "DJ-1 opposes elevated release of Neurofilament Light Chain (NfL)"
+          },
+          {
+            "source": "Tau_Protein",
+            "target": "Phosphorylated_Alpha-synuclein",
+            "interaction": "co_aggregates_with",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Tau Protein co aggregates with Phosphorylated Alpha-synuclein"
+          },
+          {
+            "source": "Phosphorylated_Tau_(p-tau)",
+            "target": "Phosphorylated_Alpha-synuclein",
+            "interaction": "co_aggregates_with",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Phosphorylated Tau (p-tau) co aggregates with Phosphorylated Alpha-synuclein"
+          },
+          {
+            "source": "LRRK2",
+            "target": "Phosphorylated_Tau_(p-tau)",
+            "interaction": "modulates",
+            "directed": true,
+            "strength": 1.0,
+            "description": "LRRK2 modulates Phosphorylated Tau (p-tau)"
+          },
+          {
+            "source": "Phosphorylated_Tau_(p-tau)",
+            "target": "GCase_(Glucocerebrosidase)",
+            "interaction": "correlates_with",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Phosphorylated Tau (p-tau) correlates with GCase (Glucocerebrosidase)"
+          },
+          {
+            "source": "Beta-synuclein",
+            "target": "Alpha-synuclein",
+            "interaction": "modulates_aggregation_of",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Beta-synuclein modulates aggregation of Alpha-synuclein"
+          },
+          {
+            "source": "UCH-L1",
+            "target": "DJ-1",
+            "interaction": "cooperates_in_proteostasis",
+            "directed": false,
+            "strength": 1.0,
+            "description": "UCH-L1 cooperates in proteostasis with DJ-1"
+          },
+          {
+            "source": "Nurr1",
+            "target": "Dopamine",
+            "interaction": "regulates_synthesis_of",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Nurr1 regulates synthesis of Dopamine"
+          },
+          {
+            "source": "Cathepsin_D",
+            "target": "Alpha-synuclein",
+            "interaction": "degrades",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Cathepsin D degrades Alpha-synuclein"
+          },
+          {
+            "source": "SIRT2",
+            "target": "Alpha-synuclein",
+            "interaction": "alters_toxicity_of",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SIRT2 alters toxicity of Alpha-synuclein"
+          },
+          {
+            "source": "Serotonin",
+            "target": "Cognitive_Decline",
+            "interaction": "contributes_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Serotonin contributes to Cognitive Decline"
+          },
+          {
+            "source": "Norepinephrine",
+            "target": "Tremor",
+            "interaction": "influences",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Norepinephrine influences Tremor"
+          },
+          {
+            "source": "Acetylcholine",
+            "target": "Cognitive_Decline",
+            "interaction": "modulates",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Acetylcholine modulates Cognitive Decline"
+          },
+          {
+            "source": "Glutamate",
+            "target": "Mitochondrial_Dysfunction",
+            "interaction": "exacerbates",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Glutamate exacerbates Mitochondrial Dysfunction"
+          },
+          {
+            "source": "Dopamine",
+            "target": "Bradykinesia",
+            "interaction": "reduced_levels_cause",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Dopamine reduced levels cause Bradykinesia"
+          },
+          {
+            "source": "Dopamine",
+            "target": "Tremor",
+            "interaction": "deficiency_contributes_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Dopamine deficiency contributes to Tremor"
+          },
+          {
+            "source": "Nurr1",
+            "target": "Dopamine",
+            "interaction": "regulates_synthesis_of",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Nurr1 regulates synthesis of Dopamine"
+          },
+          {
+            "source": "Dopamine",
+            "target": "DJ-1",
+            "interaction": "regulates_redox_protection_with",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Dopamine regulates redox protection with DJ-1"
+          },
+          {
+            "source": "Dopamine",
+            "target": "Acetylcholine",
+            "interaction": "maintains_balance_with",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Dopamine maintains balance with Acetylcholine"
+          },
+          {
+            "source": "Substantia_Nigra_pars_compacta_(SNc)",
+            "target": "Dopamine",
+            "interaction": "produces",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Substantia Nigra pars compacta (SNc) produces Dopamine"
+          },
+          {
+            "source": "Substantia_Nigra_pars_compacta_(SNc)",
+            "target": "Bradykinesia",
+            "interaction": "degeneration_leads_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Degeneration of Substantia Nigra pars compacta (SNc) leads to Bradykinesia"
+          },
+          {
+            "source": "Locus_Coeruleus",
+            "target": "Norepinephrine",
+            "interaction": "produces",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Locus Coeruleus produces Norepinephrine"
+          },
+          {
+            "source": "Raphe_Nuclei",
+            "target": "Serotonin",
+            "interaction": "produces",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Raphe Nuclei produces Serotonin"
+          },
+          {
+            "source": "Nucleus_Basalis_of_Meynert",
+            "target": "Acetylcholine",
+            "interaction": "produces",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Nucleus Basalis of Meynert produces Acetylcholine"
+          },
+          {
+            "source": "Nucleus_Basalis_of_Meynert",
+            "target": "Cognitive_Decline",
+            "interaction": "degeneration_contributes_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Degeneration of Nucleus Basalis of Meynert contributes to Cognitive Decline"
+          },
+          {
+            "source": "Striatum_(Caudate/Putamen)",
+            "target": "Dopamine",
+            "interaction": "receives_input_from",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Striatum (Caudate/Putamen) receives input from Dopamine"
+          },
+          {
+            "source": "Ventral_Tegmental_Area_(VTA)",
+            "target": "Dopamine",
+            "interaction": "produces",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Ventral Tegmental Area (VTA) produces Dopamine"
+          },
+          {
+            "source": "Ventral_Tegmental_Area_(VTA)",
+            "target": "Prefrontal_Cortex",
+            "interaction": "projects_dopamine_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Ventral Tegmental Area (VTA) projects dopamine to Prefrontal Cortex"
+          },
+          {
+            "source": "Ventral_Tegmental_Area_(VTA)",
+            "target": "Hippocampus",
+            "interaction": "projects_dopamine_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Ventral Tegmental Area (VTA) projects dopamine to Hippocampus"
+          },
+          {
+            "source": "Alpha-synuclein",
+            "target": "Hippocampus",
+            "interaction": "accumulates_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Alpha-synuclein accumulates in Hippocampus"
+          },
+          {
+            "source": "Hippocampus",
+            "target": "Cognitive_Decline",
+            "interaction": "atrophy_contributes_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Atrophy of Hippocampus contributes to Cognitive Decline"
+          },
+          {
+            "source": "Hippocampus",
+            "target": "Anxiety",
+            "interaction": "dysfunction_exacerbates",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Hippocampus dysfunction exacerbates Anxiety"
+          },
+          {
+            "source": "Amygdala",
+            "target": "Emotional_Dysregulation",
+            "interaction": "dysfunction_contributes_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Amygdala dysfunction contributes to Emotional Dysregulation"
+          },
+          {
+            "source": "Amygdala",
+            "target": "Serotonin",
+            "interaction": "receives_serotonergic_input_from",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Amygdala receives serotonergic input from Serotonin"
+          },
+          {
+            "source": "Serotonin",
+            "target": "Amygdala",
+            "interaction": "modulates_emotional_response_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Serotonin modulates emotional response in Amygdala"
+          },
+          {
+            "source": "Motor_Cortex",
+            "target": "Bradykinesia",
+            "interaction": "reduced_excitation_contributes_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Reduced excitation in Motor Cortex contributes to Bradykinesia"
+          },
+          {
+            "source": "Motor_Cortex",
+            "target": "Striatum_(Caudate/Putamen)",
+            "interaction": "receives_basal_ganglia_feedback_from",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Motor Cortex receives basal ganglia feedback from Striatum (Caudate/Putamen)"
+          },
+          {
+            "source": "Prefrontal_Cortex",
+            "target": "Executive_Dysfunction",
+            "interaction": "hypoactivation_leads_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Hypoactivation of Prefrontal Cortex leads to Executive Dysfunction"
+          },
+          {
+            "source": "Prefrontal_Cortex",
+            "target": "Dopamine",
+            "interaction": "depends_on_optimal_levels_of",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Prefrontal Cortex depends on optimal levels of Dopamine"
+          },
+          {
+            "source": "Subthalamic_Nucleus_(STN)",
+            "target": "Motor_Cortex",
+            "interaction": "influences_through_basal_ganglia_circuit",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Subthalamic Nucleus (STN) influences Motor Cortex through basal ganglia circuit"
+          },
+          {
+            "source": "Subthalamic_Nucleus_(STN)",
+            "target": "Bradykinesia",
+            "interaction": "hyperactivity_contributes_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Hyperactivity of Subthalamic Nucleus (STN) contributes to Bradykinesia"
+          },
+          {
+            "source": "Pedunculopontine_Nucleus_(PPN)",
+            "target": "Gait_Disturbance",
+            "interaction": "dysfunction_contributes_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Dysfunction in Pedunculopontine Nucleus (PPN) contributes to Gait Disturbance"
+          },
+          {
+            "source": "Pedunculopontine_Nucleus_(PPN)",
+            "target": "Acetylcholine",
+            "interaction": "contains_cholinergic_neurons_affecting",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Pedunculopontine Nucleus (PPN) contains cholinergic neurons affecting Acetylcholine"
+          },
+          {
+            "source": "Glutamate",
+            "target": "Pedunculopontine_Nucleus_(PPN)",
+            "interaction": "excitatory_input_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Glutamate provides excitatory input to Pedunculopontine Nucleus (PPN)"
+          },
+          {
+            "source": "Olfactory_Bulb",
+            "target": "Alpha-synuclein",
+            "interaction": "early_accumulation_site_for",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Olfactory Bulb is an early accumulation site for Alpha-synuclein"
+          },
+          {
+            "source": "Olfactory_Bulb",
+            "target": "Hyposmia_(Reduced_Sense_of_Smell)",
+            "interaction": "pathology_causes",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Pathology in Olfactory Bulb causes Hyposmia (Reduced Sense of Smell)"
+          },
+          {
+            "source": "SNCA",
+            "target": "Alpha-synuclein",
+            "interaction": "encodes",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SNCA encodes Alpha-synuclein"
+          },
+          {
+            "source": "SNCA",
+            "target": "Familial_PD",
+            "interaction": "mutations_lead_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Mutations in SNCA lead to Familial PD"
+          },
+          {
+            "source": "LRRK2_(Gene)",
+            "target": "LRRK2",
+            "interaction": "encodes",
+            "directed": true,
+            "strength": 1.0,
+            "description": "LRRK2 (Gene) encodes LRRK2"
+          },
+          {
+            "source": "LRRK2_(Gene)",
+            "target": "Parkinson's_Disease",
+            "interaction": "most_common_cause_of_autosomal_dominant",
+            "directed": true,
+            "strength": 1.0,
+            "description": "LRRK2 (Gene) is the most common cause of autosomal-dominant Parkinson's Disease"
+          },
+          {
+            "source": "PRKN",
+            "target": "Parkin",
+            "interaction": "encodes",
+            "directed": true,
+            "strength": 1.0,
+            "description": "PRKN encodes Parkin"
+          },
+          {
+            "source": "PRKN",
+            "target": "Mitochondrial_Dysfunction",
+            "interaction": "mutations_contribute_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Mutations in PRKN contribute to Mitochondrial Dysfunction"
+          },
+          {
+            "source": "PRKN",
+            "target": "Early-Onset_PD",
+            "interaction": "mutations_lead_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Mutations in PRKN lead to Early-Onset PD"
+          },
+          {
+            "source": "PINK1_(Gene)",
+            "target": "PINK1",
+            "interaction": "encodes",
+            "directed": true,
+            "strength": 1.0,
+            "description": "PINK1 (Gene) encodes PINK1"
+          },
+          {
+            "source": "PINK1_(Gene)",
+            "target": "Mitochondrial_Dysfunction",
+            "interaction": "loss_of_function_exacerbates",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Loss of function in PINK1 exacerbates Mitochondrial Dysfunction"
+          },
+          {
+            "source": "PINK1_(Gene)",
+            "target": "Early-Onset_PD",
+            "interaction": "mutations_lead_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Mutations in PINK1 (Gene) lead to Early-Onset PD"
+          },
+          {
+            "source": "PARK7_(DJ-1_Gene)",
+            "target": "DJ-1",
+            "interaction": "encodes",
+            "directed": true,
+            "strength": 1.0,
+            "description": "PARK7 (DJ-1 Gene) encodes DJ-1"
+          },
+          {
+            "source": "PARK7_(DJ-1_Gene)",
+            "target": "Oxidative_Stress",
+            "interaction": "mutations_increase",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Mutations in PARK7 (DJ-1 Gene) increase Oxidative Stress"
+          },
+          {
+            "source": "GBA",
+            "target": "GCase_(Glucocerebrosidase)",
+            "interaction": "encodes",
+            "directed": true,
+            "strength": 1.0,
+            "description": "GBA encodes GCase (Glucocerebrosidase)"
+          },
+          {
+            "source": "GBA",
+            "target": "Alpha-synuclein",
+            "interaction": "mutations_promote_aggregation_of",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Mutations in GBA promote aggregation of Alpha-synuclein"
+          },
+          {
+            "source": "GBA",
+            "target": "Parkinson's_Disease",
+            "interaction": "increases_risk_of",
+            "directed": true,
+            "strength": 1.0,
+            "description": "GBA increases risk of Parkinson's Disease"
+          },
+          {
+            "source": "VPS35",
+            "target": "Protein_Sorting",
+            "interaction": "essential_for",
+            "directed": false,
+            "strength": 1.0,
+            "description": "VPS35 is essential for Protein Sorting"
+          },
+          {
+            "source": "VPS35",
+            "target": "Parkinson's_Disease",
+            "interaction": "mutations_lead_to_late_onset_form",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Mutations in VPS35 lead to a late onset form of Parkinson's Disease"
+          },
+          {
+            "source": "ATP13A2",
+            "target": "Metal_Ion_Homeostasis",
+            "interaction": "regulates",
+            "directed": false,
+            "strength": 1.0,
+            "description": "ATP13A2 regulates Metal Ion Homeostasis"
+          },
+          {
+            "source": "ATP13A2",
+            "target": "Kufor-Rakeb_Syndrome",
+            "interaction": "mutations_cause",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Mutations in ATP13A2 cause Kufor-Rakeb Syndrome"
+          },
+          {
+            "source": "PLA2G6",
+            "target": "Phospholipid_Metabolism",
+            "interaction": "involved_in",
+            "directed": false,
+            "strength": 1.0,
+            "description": "PLA2G6 is involved in Phospholipid Metabolism"
+          },
+          {
+            "source": "PLA2G6",
+            "target": "Neurodegeneration",
+            "interaction": "mutations_contribute_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Mutations in PLA2G6 contribute to Neurodegeneration"
+          },
+          {
+            "source": "FBXO7",
+            "target": "Ubiquitin-Proteasome_System",
+            "interaction": "regulates",
+            "directed": false,
+            "strength": 1.0,
+            "description": "FBXO7 regulates the Ubiquitin-Proteasome System"
+          },
+          {
+            "source": "FBXO7",
+            "target": "Early-Onset_PD",
+            "interaction": "mutations_lead_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Mutations in FBXO7 lead to Early-Onset PD"
+          },
+          {
+            "source": "Bradykinesia",
+            "target": "Striatum_(Caudate/Putamen)",
+            "interaction": "arises_from_reduced_input_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Bradykinesia arises from reduced input to Striatum (Caudate/Putamen)"
+          },
+          {
+            "source": "Rigidity",
+            "target": "Motor_Cortex",
+            "interaction": "linked_to_altered_signal_from",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Rigidity is linked to altered signal from Motor Cortex"
+          },
+          {
+            "source": "Postural_Instability",
+            "target": "Pedunculopontine_Nucleus_(PPN)",
+            "interaction": "exacerbated_by_dysfunction_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Postural Instability is exacerbated by dysfunction in Pedunculopontine Nucleus (PPN)"
+          },
+          {
+            "source": "Freezing_of_Gait",
+            "target": "Subthalamic_Nucleus_(STN)",
+            "interaction": "associated_with_overactivity_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Freezing of Gait is associated with overactivity in Subthalamic Nucleus (STN)"
+          },
+          {
+            "source": "Cognitive_Decline",
+            "target": "Hippocampus",
+            "interaction": "affected_by_alpha_synuclein_pathology_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Cognitive Decline is affected by alpha-synuclein pathology in Hippocampus"
+          },
+          {
+            "source": "Cognitive_Decline",
+            "target": "Nucleus_Basalis_of_Meynert",
+            "interaction": "worsened_by_cholinergic_deficits_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Cognitive Decline is worsened by cholinergic deficits in Nucleus Basalis of Meynert"
+          },
+          {
+            "source": "Executive_Dysfunction",
+            "target": "Prefrontal_Cortex",
+            "interaction": "tied_to_dopamine_loss_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Executive Dysfunction is tied to dopamine loss in Prefrontal Cortex"
+          },
+          {
+            "source": "Dementia",
+            "target": "Phosphorylated_Tau_(p-tau)",
+            "interaction": "correlates_with_accumulation_of",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Dementia correlates with accumulation of Phosphorylated Tau (p-tau)"
+          },
+          {
+            "source": "Emotional_Dysregulation",
+            "target": "Amygdala",
+            "interaction": "dysfunction_contributes_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Emotional Dysregulation is contributed by dysfunction in Amygdala"
+          },
+          {
+            "source": "Anxiety",
+            "target": "Serotonin",
+            "interaction": "reflects_imbalance_with",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Anxiety reflects imbalance with Serotonin"
+          },
+          {
+            "source": "Depression",
+            "target": "Dopamine",
+            "interaction": "linked_to_low_levels_of",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Depression is linked to low levels of Dopamine"
+          },
+          {
+            "source": "Depression",
+            "target": "Serotonin",
+            "interaction": "partly_due_to_deficit_in",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Depression is partly due to deficit in Serotonin"
+          },
+          {
+            "source": "Apathy",
+            "target": "Ventral_Tegmental_Area_(VTA)",
+            "interaction": "associated_with_reduced_activity_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Apathy is associated with reduced activity in Ventral Tegmental Area (VTA)"
+          },
+          {
+            "source": "Sleep_Disturbances",
+            "target": "Raphe_Nuclei",
+            "interaction": "impacted_by_serotonergic_changes_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Sleep Disturbances are impacted by serotonergic changes in Raphe Nuclei"
+          },
+          {
+            "source": "Autonomic_Dysfunction",
+            "target": "Locus_Coeruleus",
+            "interaction": "exacerbated_by_loss_of_noradrenergic_tone_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Autonomic Dysfunction is exacerbated by loss of noradrenergic tone in Locus Coeruleus"
+          },
+          {
+            "source": "Constipation",
+            "target": "Alpha-synuclein",
+            "interaction": "enteric_accumulation_of",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Constipation is linked to enteric accumulation of Alpha-synuclein"
+          },
+          {
+            "source": "Orthostatic_Hypotension",
+            "target": "Norepinephrine",
+            "interaction": "reflects_deficit_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Orthostatic Hypotension reflects a deficit in Norepinephrine"
+          },
+          {
+            "source": "Hyposmia_(Reduced_Sense_of_Smell)",
+            "target": "Olfactory_Bulb",
+            "interaction": "pathology_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Hyposmia (Reduced Sense of Smell) is caused by pathology in the Olfactory Bulb"
+          },
+          {
+            "source": "Fatigue",
+            "target": "Mitochondrial_Dysfunction",
+            "interaction": "contributes_to",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Fatigue contributes to Mitochondrial Dysfunction"
+          },
+          {
+            "source": "Pain",
+            "target": "Dopamine",
+            "interaction": "modulated_by_levels_of",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Pain is modulated by levels of Dopamine"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Cognitive_Decline",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Cognitive Decline"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Hallucinations",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Hallucinations"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Depression",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Depression"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Anxiety",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Anxiety"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Apathy",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Apathy"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Dopamine_Dysregulation_Syndrome_(DDS)",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Dopamine Dysregulation Syndrome (DDS)"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Sleep_Disturbances",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Sleep Disturbances"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Pain",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Pain"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Urinary_Problems",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Urinary Problems"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Constipation",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Constipation"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Fatigue",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Fatigue"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Speech_Difficulties",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Speech Difficulties"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Drooling_(Sialorrhea)",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Drooling (Sialorrhea)"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Chewing/Swallowing_Difficulties",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Chewing/Swallowing Difficulties"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Walking_Difficulty",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Walking Difficulty"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Freezing_of_Gait",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Freezing of Gait"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Tremor",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Tremor"
+          },
+          {
+            "source": "MDS-UPDRS",
+            "target": "Rigidity",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MDS-UPDRS assesses Rigidity"
+          },
+          {
+            "source": "Hallucinations",
+            "target": "Dopamine",
+            "interaction": "exacerbated_by_excess",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Hallucinations are exacerbated by excess Dopamine"
+          },
+          {
+            "source": "Urinary_Problems",
+            "target": "Autonomic_Dysfunction",
+            "interaction": "represent",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Urinary Problems represent Autonomic Dysfunction"
+          },
+          {
+            "source": "Cognitive_Impairment",
+            "target": "Prefrontal_Cortex",
+            "interaction": "linked_to_dopamine_deficit_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Cognitive Impairment is linked to dopamine deficit in Prefrontal Cortex"
+          },
+          {
+            "source": "Dopamine_Dysregulation_Syndrome_(DDS)",
+            "target": "Ventral_Tegmental_Area_(VTA)",
+            "interaction": "involves_overstimulation_of",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Dopamine Dysregulation Syndrome (DDS) involves overstimulation of Ventral Tegmental Area (VTA)"
+          },
+          {
+            "source": "Speech_Difficulties",
+            "target": "Motor_Cortex",
+            "interaction": "related_to_impaired_signal_to_orofacial_muscles",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Speech Difficulties are related to impaired signal to orofacial muscles in Motor Cortex"
+          },
+          {
+            "source": "Walking_Difficulty",
+            "target": "Striatum_(Caudate/Putamen)",
+            "interaction": "underlies_basal_ganglia_miscommunication_with",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Walking Difficulty underlies basal ganglia miscommunication with Striatum (Caudate/Putamen)"
+          },
+          {
+            "source": "MoCA",
+            "target": "Memory_Impairment",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MoCA assesses Memory Impairment"
+          },
+          {
+            "source": "MoCA",
+            "target": "Attention_Impairment",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MoCA assesses Attention Impairment"
+          },
+          {
+            "source": "MoCA",
+            "target": "Visuospatial_Deficits",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MoCA assesses Visuospatial Deficits"
+          },
+          {
+            "source": "MoCA",
+            "target": "Language_Difficulties",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MoCA assesses Language Difficulties"
+          },
+          {
+            "source": "MoCA",
+            "target": "Orientation_Problems",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MoCA assesses Orientation Problems"
+          },
+          {
+            "source": "MoCA",
+            "target": "Cognitive_Decline",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MoCA assesses Cognitive Decline"
+          },
+          {
+            "source": "MoCA",
+            "target": "Executive_Dysfunction",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "MoCA assesses Executive Dysfunction"
+          },
+          {
+            "source": "Memory_Impairment",
+            "target": "Hippocampus",
+            "interaction": "exacerbated_by_pathology_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Memory Impairment is exacerbated by pathology in Hippocampus"
+          },
+          {
+            "source": "Attention_Impairment",
+            "target": "Prefrontal_Cortex",
+            "interaction": "linked_to_dopamine_deficit_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Attention Impairment is linked to dopamine deficit in Prefrontal Cortex"
+          },
+          {
+            "source": "Visuospatial_Deficits",
+            "target": "Parietal_Cortex",
+            "interaction": "involves_dysfunction_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Visuospatial Deficits involve dysfunction in Parietal Cortex"
+          },
+          {
+            "source": "Language_Difficulties",
+            "target": "Prefrontal_Cortex",
+            "interaction": "contributes_to_word_finding_problems_in",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Language Difficulties contribute to word finding problems in Prefrontal Cortex"
+          },
+          {
+            "source": "Orientation_Problems",
+            "target": "Cognitive_Decline",
+            "interaction": "worsens_with",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Orientation Problems worsen with Cognitive Decline"
+          },
+          {
+            "source": "QUIP",
+            "target": "Pathological_Gambling",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "QUIP assesses Pathological Gambling"
+          },
+          {
+            "source": "QUIP",
+            "target": "Hypersexuality",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "QUIP assesses Hypersexuality"
+          },
+          {
+            "source": "QUIP",
+            "target": "Compulsive_Shopping",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "QUIP assesses Compulsive Shopping"
+          },
+          {
+            "source": "QUIP",
+            "target": "Compulsive_Eating",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "QUIP assesses Compulsive Eating"
+          },
+          {
+            "source": "QUIP",
+            "target": "Punding",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "QUIP assesses Punding"
+          },
+          {
+            "source": "QUIP",
+            "target": "Hobbyism",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "QUIP assesses Hobbyism"
+          },
+          {
+            "source": "QUIP",
+            "target": "Dopamine_Dysregulation_Syndrome_(DDS)",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "QUIP assesses Dopamine Dysregulation Syndrome (DDS)"
+          },
+          {
+            "source": "Pathological_Gambling",
+            "target": "Dopamine",
+            "interaction": "driven_by_excess_activity_of",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Pathological Gambling is driven by excess activity of Dopamine"
+          },
+          {
+            "source": "Hypersexuality",
+            "target": "Dopamine",
+            "interaction": "exacerbated_by_medication_induced_changes_in",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Hypersexuality is exacerbated by medication induced changes in Dopamine"
+          },
+          {
+            "source": "Compulsive_Shopping",
+            "target": "Nucleus_Accumbens_(NAc)",
+            "interaction": "overactivity_within",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Compulsive Shopping is associated with overactivity within Nucleus Accumbens (NAc)"
+          },
+          {
+            "source": "Compulsive_Eating",
+            "target": "Nucleus_Accumbens_(NAc)",
+            "interaction": "influenced_by_reward_pathway_dysfunction_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Compulsive Eating is influenced by reward pathway dysfunction in Nucleus Accumbens (NAc)"
+          },
+          {
+            "source": "Hobbyism",
+            "target": "Ventral_Tegmental_Area_(VTA)",
+            "interaction": "associated_with_excess_dopaminergic_drive_from",
+            "directed": true,
+            "strength": 1.0,
+            "description": "Hobbyism is associated with excess dopaminergic drive from Ventral Tegmental Area (VTA)"
+          },
+          {
+            "source": "Punding",
+            "target": "Dopamine",
+            "interaction": "linked_to_chronic_overstimulation_of",
+            "directed": false,
+            "strength": 1.0,
+            "description": "Punding is linked to chronic overstimulation of Dopamine"
+          },
+          {
+            "source": "DaTscan",
+            "target": "Dopamine",
+            "interaction": "assesses_transporter_availability_of",
+            "directed": true,
+            "strength": 1.0,
+            "description": "DaTscan assesses transporter availability of Dopamine"
+          },
+          {
+            "source": "DaTscan",
+            "target": "Striatum_(Caudate/Putamen)",
+            "interaction": "measures_dopaminergic_deficit_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "DaTscan measures dopaminergic deficit in Striatum (Caudate/Putamen)"
+          },
+          {
+            "source": "DaTscan",
+            "target": "Substantia_Nigra_pars_compacta_(SNc)",
+            "interaction": "reflects_dopaminergic_neuron_loss_in",
+            "directed": true,
+            "strength": 1.0,
+            "description": "DaTscan reflects dopaminergic neuron loss in Substantia Nigra pars compacta (SNc)"
+          },
+          {
+            "source": "DaTscan",
+            "target": "Bradykinesia",
+            "interaction": "correlates_with",
+            "directed": true,
+            "strength": 1.0,
+            "description": "DaTscan correlates with Bradykinesia"
+          },
+          {
+            "source": "DaTscan",
+            "target": "Tremor",
+            "interaction": "correlates_with",
+            "directed": true,
+            "strength": 1.0,
+            "description": "DaTscan correlates with Tremor"
+          },
+          {
+            "source": "DaTscan",
+            "target": "Rigidity",
+            "interaction": "correlates_with",
+            "directed": true,
+            "strength": 1.0,
+            "description": "DaTscan correlates with Rigidity"
+          },
+          {
+            "source": "DaTscan",
+            "target": "Executive_Dysfunction",
+            "interaction": "can_indicate_risk_of",
+            "directed": true,
+            "strength": 1.0,
+            "description": "DaTscan can indicate risk of Executive Dysfunction"
+          },
+          {
+            "source": "DaTscan",
+            "target": "Cognitive_Decline",
+            "interaction": "can_indicate_risk_of",
+            "directed": true,
+            "strength": 1.0,
+            "description": "DaTscan can indicate risk of Cognitive Decline"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Bradykinesia",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-Motor subscale assesses Bradykinesia"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Tremor",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-Motor subscale assesses Tremor"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Rigidity",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-Motor subscale assesses Rigidity"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Postural_Instability",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-Motor subscale assesses Postural Instability"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Freezing_of_Gait",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-Motor subscale assesses Freezing of Gait"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Speech_Difficulties",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-Motor subscale assesses Speech Difficulties"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Walking_Difficulty",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-Motor subscale assesses Walking Difficulty"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Chewing/Swallowing_Difficulties",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-Motor subscale assesses Chewing/Swallowing Difficulties"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Cognitive_Decline",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-COG subscale assesses Cognitive Decline"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Executive_Dysfunction",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-COG subscale assesses Executive Dysfunction"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Dementia",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-COG subscale assesses Dementia"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Memory_Impairment",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-COG subscale assesses Memory Impairment"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Sleep_Disturbances",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-Sleep subscale assesses Sleep Disturbances"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Insomnia",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-Sleep subscale assesses Insomnia"
+          },
+          {
+            "source": "SCOPA",
+            "target": "REM_Sleep_Behavior_Disorder",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-Sleep subscale assesses REM Sleep Behavior Disorder (RBD)"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Excessive_Daytime_Sleepiness",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-Sleep subscale assesses Excessive Daytime Sleepiness"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Depression",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-PS subscale assesses Depression"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Anxiety",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-PS subscale assesses Anxiety"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Emotional_Dysregulation",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-PS subscale assesses Emotional Dysregulation"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Apathy",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-PS subscale assesses Apathy"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Autonomic_Dysfunction",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-AUT subscale assesses overall Autonomic Dysfunction"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Constipation",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-AUT subscale assesses Constipation"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Orthostatic_Hypotension",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-AUT subscale assesses Orthostatic Hypotension"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Urinary_Problems",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-AUT subscale assesses Urinary Problems"
+          },
+          {
+            "source": "SCOPA",
+            "target": "Hypersalivation",
+            "interaction": "assesses",
+            "directed": true,
+            "strength": 1.0,
+            "description": "SCOPA-AUT subscale assesses Hypersalivation (excess saliva)"
+          }
+    ]
+} 
